@@ -1,11 +1,10 @@
-# Vagrant con dos sitios web 3c
-####Necesitas el box hashicorp/precise64 de vagrant
+# Vagrant proyecto servidor web 3d
+####Necesitas el box ubuntu/trusty64 de vagrant
 ####Crea una carpeta llamada Vagrant en tu carpeta c/xampp/htdocs. 
-####Añade en tu archivo host estas dos lineas
-* 192.168.1.8	  www.prueba1vagrant.com
-* 192.168.1.8		www.prueba2vagrant.com
+####Añade en tu archivo host esta linea
+* 192.168.1.8	  www.gestorfct.com
 
 ####Haz un vagrant up 
 ####Haz vagrant ssh
 
-##las URL ya estan disponibles
+##la URL ya esta disponible
