@@ -59,6 +59,7 @@ sudo echo "<VirtualHost *:80>
 cd /etc/apache2/sites-available/
 sudo a2ensite servidor.conf
 sudo a2dissite default
+sudo a2enmod rewrite
 sudo service apache2 reload
 
 #instalamos composer para el proyecto de symfony
